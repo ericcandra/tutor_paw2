@@ -7,7 +7,7 @@ const mainController = require("../controllers/mainController");
 //route
 // router.get("/", mainController.use);
 
-// router.get("/", mainController.index);
+router.get("/", mainController.index);
 router.get("/home", mainController.index);
 
 
